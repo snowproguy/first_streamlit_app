@@ -70,6 +70,7 @@ if streamlit.button('Get Fuit Load List'):
   streamlit.text(back_from_function)
  
 streamlit.write('Thanks for adding ', add_my_fruit)
+streamlit.stop()
 # my_cur = my_cnx.cursor()
 # my_cur.execute("select * from fruit_load_list")
 
